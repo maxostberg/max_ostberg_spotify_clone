@@ -1,0 +1,202 @@
+/* Background */
+.main-showcase{
+    background: #2D46B9;
+}
+.showcase{
+    background: url(https://www.scdn.co/i/home/lieVariants/bursts.svg) no-repeat;
+    background-size: 160%;
+    background-position: 43% 15%;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+/* Navigation-bar */
+.navigation{
+    align-self: flex-start;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: #000;
+}
+
+.navigation-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.navigation-list{
+    display: flex;
+}
+
+.navigation-item{
+    margin-right: 25px;
+    color: white;
+}
+
+.spotify-icon{
+    width: 132px;
+    height: 40px;
+    fill: white;
+}
+
+/* Big text */
+.big{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.big-container{
+    padding-left: 250px;
+}
+
+.big-text{
+    text-align: center;
+    width: 800px;
+    color:#1ed760;
+}
+
+.heading{
+    font-size: 156px;
+    text-indent: -3.3em;
+    text-align: center;
+}
+
+.para-text{
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 25px;
+    color:#1ed760;
+}
+
+.big-btn{
+    margin-top: 30px;
+    padding-left: 120px;
+}
+
+.btn{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 40px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    background-color: #1ed760;
+    color: #2D46B9;
+}
+.btn:hover{
+    background: white;
+    transition: 0.3s;
+}
+
+/* Footer */
+
+.main-footer{
+    width: 100%;
+    background: #000;
+    
+}
+.footer-container{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.top-footer{
+    display: flex;
+}
+
+.brand{
+    flex: 0.3;
+    padding-right: 30px;
+}
+
+.footer-lists{
+    display: flex;
+    flex: 2;
+}
+.list{
+    margin-right: 70px;
+}
+.list-heading{
+    color: gray;
+}
+.list-item{
+    margin-top: 25px;
+}
+
+.social{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 50px;
+
+}
+.social-link{
+    margin-left: 20px;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    color: gray;
+}
+
+.policy-list{
+    display: flex;
+}
+
+.language-link, .bottom-item{
+    color: gray;
+}
+
+.bottom-item{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.social-link{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
